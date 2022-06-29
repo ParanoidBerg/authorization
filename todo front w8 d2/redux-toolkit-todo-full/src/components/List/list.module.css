@@ -1,0 +1,49 @@
+.list{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 510px;
+    margin-left: 33.2%;
+    margin-top: 1%;
+    border-radius: 3px;
+    border: 1px solid gray;
+    height: 30px;
+
+}
+.completed{
+    display: flex;
+    justify-content: space-between;
+    width: 510px;
+    margin-left: 33.2%;
+    margin-top: 1%;
+    border-radius: 3px;
+    border: 1px solid gold;
+    height: 30px;
+}
+.fav{
+    border: none;
+    color: black;
+    background-color: inherit;
+    cursor: pointer;
+}
+.favSelected{
+    border: none;
+    color: gold;
+    background-color: inherit;
+    cursor: pointer;
+}
+.del{
+    border: none;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+.loader{
+    text-align: center;
+    margin-top: 1%;
+}
+
