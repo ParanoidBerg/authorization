@@ -1,49 +1,72 @@
-.list{
-    display: flex;
-    flex-direction: column-reverse;
+.list {
+  display: flex;
+  flex-direction: column-reverse;
 }
-.task{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
-    width: 510px;
-    margin-left: 33.2%;
-    margin-top: 1%;
-    border-radius: 3px;
-    border: 1px solid gray;
-    height: 30px;
-
+.task {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  width: 510px;
+  margin-left: 33.2%;
+  margin-top: 1%;
+  border-radius: 3px;
+  height: 30px;
 }
-.completed{
-    display: flex;
-    justify-content: space-between;
-    width: 510px;
-    margin-left: 33.2%;
-    margin-top: 1%;
-    border-radius: 3px;
-    border: 1px solid gold;
-    height: 30px;
+.completed {
+  display: flex;
+  justify-content: space-between;
+  width: 510px;
+  margin-left: 33.2%;
+  margin-top: 1%;
+  border-radius: 3px;
+  border: 1px solid gold;
+  height: 30px;
 }
-.fav{
-    border: none;
-    color: black;
-    background-color: inherit;
-    cursor: pointer;
+.fav {
+  border: none;
+  color: black;
+  background-color: inherit;
+  cursor: pointer;
 }
-.favSelected{
-    border: none;
-    color: gold;
-    background-color: inherit;
-    cursor: pointer;
+.favSelected {
+  border: none;
+  color: gold;
+  background-color: inherit;
+  cursor: pointer;
 }
-.del{
-    border: none;
-    background-color: white;
-    color: red;
-    cursor: pointer;
+.del {
+  border: none;
+  background-color: white;
+  color: red;
+  cursor: pointer;
 }
-.loader{
-    text-align: center;
-    margin-top: 1%;
+.loader {
+  text-align: center;
+  margin-top: 1%;
 }
-
+.err {
+  text-align: center;
+  margin-top: 2%;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.errCnt {
+  position: absolute;
+  left: 35%;
+  border: 1px solid red;
+  margin-top: 2%;
+  height: 35px;
+  width: 400px;
+  border-radius: 5px;
+}
+.logOut {
+  margin-top: 30%;
+  margin-left: 93%;
+  width: 90px;
+  height: 35px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+}

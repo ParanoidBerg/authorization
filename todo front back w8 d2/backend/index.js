@@ -8,7 +8,8 @@ app.use(cors())
 
 const port = 4000
 
-app.use(require('./route'))
+app.use(require('./routes/todo.routes'))
+app.use(require('./routes/user.routes'))
 
 mongoose
   .connect("mongodb+srv://Deni:2479@cluster0.elkeumb.mongodb.net/todo")

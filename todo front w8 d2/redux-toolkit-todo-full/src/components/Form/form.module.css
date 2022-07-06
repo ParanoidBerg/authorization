@@ -1,31 +1,64 @@
-.form{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 .input {
-    height: 30px;
-    width: 400px;
-    border-radius: 3px;
-    outline: none;
-    border: 1px solid gray;
+  height: 30px;
+  width: 400px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid lightgray;
 }
 .btn {
-    width: 6%;
-    border: 1px solid #634bf5;
-    color: white;
-    border-radius: 3px;
-    background-color: #634bf5;
-    cursor: pointer;
-    margin-left: 1%;
-    
+  width: 6%;
+  border: 1px solid #634bf5;
+  color: white;
+  border-radius: 3px;
+  background-color: #634bf5;
+  cursor: pointer;
+  margin-left: 1%;
 }
-.btnOff{
-    width: 6%;
-    border: 1px solid lightblue;
-    color: white;
-    border-radius: 3px;
-    background-color: lightblue;
-    cursor: pointer;
-    margin-left: 1%;
+.btnOff {
+  width: 6%;
+  border: 1px solid lightblue;
+  color: white;
+  border-radius: 3px;
+  background-color: lightblue;
+  cursor: pointer;
+  margin-left: 1%;
+}
+.links {
+  position: absolute;
+  left: 80%;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  bottom: 96.4%;
+}
+.home {
+  text-decoration: none;
+  color: #634bf5;
+}
+.signUp {
+  text-decoration: none;
+  color: #634bf5;
+}
+.signIn {
+  text-decoration: none;
+  color: #634bf5;
+}
+.title {
+  position: absolute;
+  right: 46%;
+  bottom: 85%;
+}
+.home:hover {
+  color: lightblue;
+}
+.signIn:hover {
+  color: lightblue;
+}
+.signUp:hover {
+  color: lightblue;
 }
